@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PRD reviewer: free Claude skill and prompt | Akbar Ahmed Khan</title>
+<meta name="description" content="A free Claude skill and prompt that reviews a PRD for 9 gaps before engineering sees it, with a scorecard and questions for the author.">
+<meta property="og:title" content="PRD reviewer: free Claude skill and prompt">
+<meta property="og:description" content="Checks a PRD for 9 gaps before engineering sees it. Free download.">
+<meta property="og:image" content="https://akbar-ai-labs.github.io/assets/akbar.jpg">
+<link rel="icon" href="../../assets/akbar.jpg">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="sig" href="../../"><img src="../../assets/akbar.jpg" alt="Akbar Ahmed Khan"><span><b>Akbar Ahmed Khan</b><small>Engineer · AI Product Builder</small></span></a>
+  <nav><a href="../../">All kits</a><a href="https://www.linkedin.com/in/akbar-ahmed-khan/">LinkedIn</a></nav>
+</div></header>
+<main><div class="wrap">
+  <span class="lbl">Free kit · Claude skill + prompt</span>
+  <h1>PRD reviewer</h1>
+  <p class="lead">Checks your PRD for 9 gaps before engineering sees it. You get a verdict, a scorecard, and the questions to answer. It never rewrites your document.</p>
+  <a class="btn" href="prd-reviewer-skill.zip" download>Download Claude skill (.zip)</a>
+  <a class="btn line" href="prd-reviewer-prompt.md" download>Download prompt (.md)</a>
+  <a class="btn line" href="https://github.com/akbar-ai-labs/akbar-ai-labs.github.io/tree/main/kits/prd-reviewer">View on GitHub</a>
+
+  <h2>What it checks</h2>
+  <table>
+    <tr><th>#</th><th>Area</th><th>Passes when…</th></tr>
+    <tr><td>1</td><td>Problem and evidence</td><td>The problem is in the user's words and backed by data or real examples.</td></tr>
+    <tr><td>2</td><td>Target users</td><td>A specific segment is named, with the situation they're in.</td></tr>
+    <tr><td>3</td><td>Goals and non-goals</td><td>Goals are stated, plus at least one thing this work won't do.</td></tr>
+    <tr><td>4</td><td>Success metrics</td><td>Each metric has a baseline, a target and a time frame.</td></tr>
+    <tr><td>5</td><td>Scope and requirements</td><td>Requirements are testable and prioritised.</td></tr>
+    <tr><td>6</td><td>Edge cases and failure states</td><td>Empty, error, loading, permission and offline states are covered.</td></tr>
+    <tr><td>7</td><td>Risks and dependencies</td><td>Each risk and dependency has an owner.</td></tr>
+    <tr><td>8</td><td>Rollout and measurement</td><td>There's a release plan and a way to measure the metrics.</td></tr>
+    <tr><td>9</td><td>Open questions</td><td>Each unresolved decision has an owner and a date.</td></tr>
+  </table>
+  <p style="color:var(--mu);margin-top:12px">For AI features it also asks: what happens when the AI is wrong, how users can check an answer, and what one use costs at scale.</p>
+
+  <h2>How to use it</h2>
+  <h3>In Claude (as a skill)</h3>
+  <ol>
+    <li>Download <code>prd-reviewer-skill.zip</code>.</li>
+    <li>In Claude, open <b>Settings → Capabilities → Skills</b> and upload the ZIP. (Skills need to be available on your Claude plan.)</li>
+    <li>Share a PRD in any chat and ask: <i>"Review this PRD."</i></li>
+  </ol>
+  <h3>In Claude Code</h3>
+  <ol><li>Unzip it into <code>~/.claude/skills/</code> (or your project's <code>.claude/skills/</code>), then ask Claude Code to review a PRD file.</li></ol>
+  <h3>In any other AI assistant</h3>
+  <ol><li>Open <code>prd-reviewer-prompt.md</code>, paste it into ChatGPT, Gemini or Copilot, and add your PRD at the end.</li></ol>
+
+  <h2>Tips</h2>
+  <ul>
+    <li>Run it before your review meeting, not after.</li>
+    <li>Fix the gaps yourself. The reviewer's job is to ask, not to write for you.</li>
+    <li>Change the nine checks to match your team's PRD template. It's a plain text file.</li>
+  </ul>
+</div></main>
+<footer><div class="wrap">Made by <a href="https://www.linkedin.com/in/akbar-ahmed-khan/">Akbar Ahmed Khan</a>. Free to use, change and share.</div></footer>
+</body>
+</html>
