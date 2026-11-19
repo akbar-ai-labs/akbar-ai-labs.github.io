@@ -7,5 +7,6 @@ Claude skills, prompts, checklists and templates by [Akbar Ahmed Khan](https://w
 | Kit | Files |
 |---|---|
 | [PRD reviewer](kits/prd-reviewer/) | `prd-reviewer-skill.zip` (Claude skill), `prd-reviewer-prompt.md` (any AI assistant) |
+| [UI self-review](kits/ui-self-review/) | `ui-self-review-skill.zip` (Claude skill), `ui-self-review-prompt.md` (any AI assistant) |
 
 Each kit lives in `kits/<name>/` with its own page, so you can also download the files straight from GitHub.

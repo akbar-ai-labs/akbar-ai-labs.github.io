@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI self-review: free Claude skill and prompt | Akbar Ahmed Khan</title>
+<meta name="description" content="A free Claude skill and prompt that reviews a screen or UI code for 10 common problems before a designer or user sees it.">
+<meta property="og:title" content="UI self-review: free Claude skill and prompt">
+<meta property="og:description" content="Checks your screens for 10 common problems before a designer sees them. Free download.">
+<meta property="og:image" content="https://akbar-ai-labs.github.io/assets/akbar.jpg">
+<link rel="icon" href="../../assets/akbar.jpg">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="sig" href="../../"><img src="../../assets/akbar.jpg" alt="Akbar Ahmed Khan"><span><b>Akbar Ahmed Khan</b><small>Engineer · AI Product Builder</small></span></a>
+  <nav><a href="../../">All kits</a><a href="https://www.linkedin.com/in/akbar-ahmed-khan/">LinkedIn</a></nav>
+</div></header>
+<main><div class="wrap">
+  <span class="lbl">free kit · Claude skill + prompt</span>
+  <h1>UI <span class="hl"><i>self-review</i></span></h1>
+  <p class="lead">Checks your screens for 10 common problems before a designer or user sees them. Give it a screenshot or your front-end code. You get a short, prioritised fix list with where and why.</p>
+  <a class="btn" href="ui-self-review-skill.zip" download>Download Claude skill (.zip)</a>
+  <a class="btn line" href="ui-self-review-prompt.md" download>Download prompt (.md)</a>
+  <a class="btn line" href="https://github.com/akbar-ai-labs/akbar-ai-labs.github.io/tree/main/kits/ui-self-review">View on GitHub</a>
+
+  <h2>What it checks</h2>
+  <table>
+    <tr><th>#</th><th>Area</th><th>Looks for</th></tr>
+    <tr><td>1</td><td>States</td><td>Empty, loading and error states exist and help the user.</td></tr><tr><td>2</td><td>Copy</td><td>Clear labels, no jargon, error messages that say how to fix it.</td></tr><tr><td>3</td><td>Contrast and text size</td><td>Text meets WCAG AA contrast and is readable.</td></tr><tr><td>4</td><td>Labels</td><td>Icon buttons and fields have accessible names; meaningful images have alt text.</td></tr><tr><td>5</td><td>Keyboard and focus</td><td>Everything works with a keyboard, with a visible focus outline.</td></tr><tr><td>6</td><td>Consistency</td><td>Spacing, buttons, colours and wording follow one system.</td></tr><tr><td>7</td><td>Mobile</td><td>Works on small screens, with big enough tap targets.</td></tr><tr><td>8</td><td>Destructive actions</td><td>Delete and send ask for confirmation or offer undo.</td></tr><tr><td>9</td><td>Forms</td><td>Validation at the right time, helpful hints, input never lost.</td></tr><tr><td>10</td><td>AI screens</td><td>Sources shown, uncertainty stated, output editable.</td></tr>
+  </table>
+
+  <h2>How to use it</h2>
+  <h3>In Claude (as a skill)</h3>
+  <ol>
+    <li>Download <code>ui-self-review-skill.zip</code>.</li>
+    <li>In Claude, open <b>Settings → Capabilities → Skills</b> and upload the ZIP. (Skills need to be available on your Claude plan.)</li>
+    <li>Share a screenshot or paste your UI code and ask: <i>"Review this screen."</i></li>
+  </ol>
+  <h3>In Claude Code</h3>
+  <ol><li>Unzip it into <code>~/.claude/skills/</code> (or your project's <code>.claude/skills/</code>), then ask Claude Code to review a page or component.</li></ol>
+  <h3>In any other AI assistant</h3>
+  <ol><li>Open <code>ui-self-review-prompt.md</code>, paste it into an assistant that can read images or code, and attach your screen.</li></ol>
+
+  <h2>Tips</h2>
+  <ul>
+    <li>Run it on every screen before design review. It catches the boring problems so the review can focus on the hard ones.</li>
+    <li>It doesn't replace a designer or real accessibility testing with users and assistive technology.</li>
+    <li>Add your own design system rules to the checks. It's a plain text file.</li>
+  </ul>
+</div></main>
+<footer><div class="wrap">Made by <a href="https://www.linkedin.com/in/akbar-ahmed-khan/">Akbar Ahmed Khan</a>. Free to use, change and share.</div></footer>
+</body>
+</html>
